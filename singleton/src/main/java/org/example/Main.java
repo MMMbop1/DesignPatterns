@@ -1,10 +1,15 @@
 package org.example;
 
+import java.util.Map;
+
 public class Main {
     public static void main(String[] args) {
 
-        Serializer serializer = new Serializer();
-        Person person = serializer.readPersonFromCfg();
-        System.out.println("hej");
+        for (int i = 0; i < 25; i++) {
+            System.out.println(TicketDispenser.getInstance().printTicket());
+        }
+
+        TicketDispenser.getInstance().writeProperties();
+        TicketDispenser.getInstance().resetTicketDispenser();
     }
 }
