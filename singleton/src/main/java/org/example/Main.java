@@ -9,5 +9,6 @@ public class Main {
 
         TicketDispenser.getInstance().writeProperties();
         TicketDispenser.getInstance().resetTicketDispenser();
+
     }
 }

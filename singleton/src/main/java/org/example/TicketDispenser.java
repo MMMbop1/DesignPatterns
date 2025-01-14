@@ -31,7 +31,7 @@ public class TicketDispenser {
             properties.load(input);
             input.close();
         } catch (IOException e) {
-            throw new RuntimeException("Failed to load properties from file: " + "singleton/src/main/resources/file.cfg", e);
+            throw new RuntimeException("Failed to load properties from file: " + CFG_FILE_PATH, e);
         }
         return properties;
     }
@@ -46,7 +46,7 @@ public class TicketDispenser {
             output.flush();
             output.close();
         } catch (IOException e) {
-            throw new RuntimeException("Failed to write properties to file: " + "singleton/src/main/resources/file.cfg", e);
+            throw new RuntimeException("Failed to write properties to file: " + CFG_FILE_PATH, e);
         }
     }
 
