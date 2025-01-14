@@ -8,4 +8,4 @@ Only one instance of the TicketDispener may exist. This Singleton is created laz
 
 Testing a new adapter class and in order to not change the source code implementing an Adapter class. 
 
-![Alt text](Adapter.PNG)
+![Alt text](Adapter-3.PNG)
