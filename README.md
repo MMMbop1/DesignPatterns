@@ -6,6 +6,6 @@ Only one instance of the TicketDispener may exist. This Singleton is created laz
 
 ### Adapter
 
-Testing a new adapter class and in order to not change the source code implementing an Adapter class. 
+Testing a new adapter class and in order to not change the source code implementing an Object-Adapter class. 
 
 ![Alt text](Adapter-3.PNG)
