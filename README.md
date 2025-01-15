@@ -1,11 +1,32 @@
 ## Design patterns in object orientated programming
 
+Briefly summarization of functionality with different design patterns in object orientated programming. 
+
 ### Singleton
 
-Only one instance of the TicketDispener may exist. This Singleton is created lazy and is using synchronization to lock the resources when thread is using it and thereby avoiding conflicts when printingTickets. 
+The Singleton pattern ensures that only one instance of a class exists and provides a global access point to it. In the case of the TicketDispenser, this guarantees a single instance is responsible for managing ticket dispensing. The instance is created lazily, meaning it is only initialized when first needed. Synchronization is used to lock resources, preventing conflicts with multiple threads.
 
-### Adapter
+<strong>Advantages:</strong>
+Ensures that only one instance of the class is used, simplifying resource management.
+Provides a single point of control for the instance, making it easier to manage shared resources like the ticket dispenser.
 
-Testing a new adapter class and in order to not change the source code implementing an Object-Adapter class. 
+<strong>Disadvantages:</strong>
+Synchronization can impact performance, especially in applications with high concurrency.
+
+<strong>Similar patterns</strong>
+Flyweight
+
+### Adapter (object adapter)
+
+The Adapter is a structural design pattern that leverages interfaces to integrate new components into an application without modifying existing source code. The pattern involves four key components *Client*, *Target*, *Adapter* and *Adaptee*.   
+
+<strong>Advantages:</strong>
+Allowing new components to integrate in a system without changing source code.
+
+<strong>Disadvantages:</strong>
+Technical Debt - *Code now, pay later* - when implementing new functionality into older systems, adapter is a commonly used solution. The downside is that over time a technical debt is growing and might cause big headach in the future.
+
+<strong>Similar patterns</strong>
+Facade, Bridge, Decorator, Proxy
 
 ![Alt text](Adapter.PNG)

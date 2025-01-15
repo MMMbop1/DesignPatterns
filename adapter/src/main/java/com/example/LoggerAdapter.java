@@ -1,5 +1,10 @@
 package com.example;
 
+import com.example.logger.CandidateLogger;
+import com.example.logger.Logger;
+
+import java.util.Date;
+
 public class LoggerAdapter implements Logger {
     private CandidateLogger candidateLogger;
 
@@ -11,7 +16,7 @@ public class LoggerAdapter implements Logger {
 
     @Override
     public void log(String string) {
-
+        candidateLogger.log(string, new Date());
     }
 
     public CandidateLogger getCandidateLogger() {

@@ -1,4 +1,4 @@
-package com.example;
+package com.example.logger;
 
 public class CurrentLogger implements Logger {
 

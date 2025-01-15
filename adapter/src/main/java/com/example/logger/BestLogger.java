@@ -1,4 +1,4 @@
-package com.example;
+package com.example.logger;
 
 import java.util.Date;
 
