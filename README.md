@@ -44,3 +44,4 @@ Can be difficult to implement and a low quality might worsen the complexity.
 <strong>Similar patterns</strong>
 Adapter, Bridge, Mediator
 
+![Facade](Facade.PNG)
