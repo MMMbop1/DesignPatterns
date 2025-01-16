@@ -30,3 +30,18 @@ Technical Debt - *Code now, pay later* - when implementing new functionality int
 Facade, Bridge, Decorator, Proxy
 
 ![Alt text](Adapter.PNG)
+
+### Facade
+
+The facade is a pattern used to simplify complex many-many relationships and allows use to show one simpel facade for the client. This pattern is usually implemented when working with a complicated system.
+
+<strong>Advantages:</strong>
+Reduce complexity for the client
+
+<strong>Disadvantages:</strong>
+Can be difficult to implement and a low quality might worsen the complexity.
+
+<strong>Similar patterns</strong>
+Adapter, Bridge, Mediator
+
+![Alt text](Facade.PNG)

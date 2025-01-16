@@ -15,8 +15,9 @@
     </dependencies>
 
     <modules>
-        <module>singleton</module>
         <module>adapter</module>
+        <module>facade</module>
+        <module>singleton</module>
     </modules>
 
     <properties>
