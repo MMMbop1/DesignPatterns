@@ -29,7 +29,7 @@ Technical Debt - *Code now, pay later* - when implementing new functionality int
 <strong>Similar patterns</strong>
 Facade, Bridge, Decorator, Proxy
 
-![Alt text](Adapter.PNG)
+![Adapter](Adapter.PNG)
 
 ### Facade
 
@@ -44,4 +44,3 @@ Can be difficult to implement and a low quality might worsen the complexity.
 <strong>Similar patterns</strong>
 Adapter, Bridge, Mediator
 
-![Alt text](Facade.PNG)
