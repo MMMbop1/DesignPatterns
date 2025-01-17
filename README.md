@@ -6,6 +6,7 @@ Briefly summarization of functionality with different design patterns in object 
 
 The Singleton pattern ensures that only one instance of a class exists and provides a global access point to it. In the case of the TicketDispenser, this guarantees a single instance is responsible for managing ticket dispensing. The instance is created lazily, meaning it is only initialized when first needed. Synchronization is used to lock resources, preventing conflicts with multiple threads.
 
+
 <strong>Advantages:</strong>
 Ensures that only one instance of the class is used, simplifying resource management.
 Provides a single point of control for the instance, making it easier to manage shared resources like the ticket dispenser.
@@ -15,6 +16,8 @@ Synchronization can impact performance, especially in applications with high con
 
 <strong>Similar patterns</strong>
 Flyweight
+
+![Alt text](Singleton.PNG)
 
 ### Adapter (object adapter)
 
@@ -29,11 +32,11 @@ Technical Debt - *Code now, pay later* - when implementing new functionality int
 <strong>Similar patterns</strong>
 Facade, Bridge, Decorator, Proxy
 
-![Adapter](Adapter.PNG)
+![Alt text](Adapter.PNG)
 
 ### Facade
 
-The facade is a pattern used to simplify complex many-many relationships and allows use to show one simpel facade for the client. This pattern is usually implemented when working with a complicated system.
+The facade is a pattern used to simplify complex relationships and allows us to show one simple facade for the client. This pattern is usually implemented when working with a complicated system.
 
 <strong>Advantages:</strong>
 Reduce complexity for the client
@@ -44,4 +47,4 @@ Can be difficult to implement and a low quality might worsen the complexity.
 <strong>Similar patterns</strong>
 Adapter, Bridge, Mediator
 
-![Facade](Facade.PNG)
+![Alt text](Facade.PNG)

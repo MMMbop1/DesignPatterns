@@ -7,7 +7,7 @@ public class InvestmentAccountService {
 
     // Lazy instantiation
     private static InvestmentAccountService investmentAccountService;
-    private static Map<String, Double> funds;
+    private Map<String, Double> funds;
 
     private InvestmentAccountService() {
         funds = new HashMap<>();

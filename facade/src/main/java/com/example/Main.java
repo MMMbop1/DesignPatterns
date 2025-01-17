@@ -1,7 +1,5 @@
 package com.example;
 
-import com.example.services.InvestmentFacade;
-
 public class Main {
     public static void main(String[] args) {
         InvestmentFacade facade = new InvestmentFacade();

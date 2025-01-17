@@ -1,6 +1,10 @@
-package com.example.services;
+package com.example;
 
 import com.example.InvestmentAccountService;
+import com.example.services.FundService;
+import com.example.services.OptionsService;
+import com.example.services.Service;
+import com.example.services.StockService;
 
 import java.util.Random;
 
