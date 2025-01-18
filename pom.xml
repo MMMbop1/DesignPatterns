@@ -20,6 +20,7 @@
         <module>adapter</module>
         <module>facade</module>
         <module>singleton</module>
+        <module>proxy</module>
     </modules>
 
     <properties>

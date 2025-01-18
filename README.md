@@ -17,7 +17,7 @@ Synchronization can impact performance, especially in applications with high con
 <strong>Similar patterns</strong>
 Flyweight
 
-![Alt text](Singleton.PNG)
+![Singleton](Singleton.PNG)
 
 ### Adapter (object adapter)
 
@@ -32,7 +32,7 @@ Technical Debt - *Code now, pay later* - when implementing new functionality int
 <strong>Similar patterns</strong>
 Facade, Bridge, Decorator, Proxy
 
-![Alt text](Adapter.PNG)
+![Adapter](Adapter.PNG)
 
 ### Facade
 
@@ -47,4 +47,19 @@ Can be difficult to implement and a low quality might worsen the complexity.
 <strong>Similar patterns</strong>
 Adapter, Bridge, Mediator
 
-![Alt text](Facade.PNG)
+![Facade](Facade.PNG)
+
+### Proxy
+
+Proxy allows us controll access for an object, in this case a singleton.
+
+<strong>Advantages:</strong>
+Access, reduce dependancy
+
+<strong>Disadvantages:</strong>
+negative perfomance impact
+
+<strong>Similar patterns</strong>
+Adapter, Decorator
+
+![Proxy](Proxy.PNG)

@@ -1,0 +1,4 @@
+Hello, contains illegal words : false: type = write : date = Sat Jan 18 13:35:51 CET 2025
+How are you? contains illegal words : false: type = write : date = Sat Jan 18 13:35:51 CET 2025
+Can we meet up at the coffee House at 18:00? contains illegal words : false: type = write : date = Sat Jan 18 13:35:51 CET 2025
+type = read : date = Sat Jan 18 13:35:51 CET 2025
