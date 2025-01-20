@@ -21,6 +21,7 @@
         <module>facade</module>
         <module>singleton</module>
         <module>proxy</module>
+        <module>strategy</module>
     </modules>
 
     <properties>
