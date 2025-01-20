@@ -51,13 +51,13 @@ Adapter, Bridge, Mediator
 
 ### Proxy
 
-Proxy allows us controll access for an object, in this case a singleton.
+Proxy allows us control access for an object, in this case a singleton.
 
 <strong>Advantages:</strong>
-Access, reduce dependancy
+Access, reduce dependency
 
 <strong>Disadvantages:</strong>
-negative perfomance impact
+negative performance impact
 
 <strong>Similar patterns</strong>
 Adapter, Decorator
