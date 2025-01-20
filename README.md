@@ -63,3 +63,19 @@ negative performance impact
 Adapter, Decorator
 
 ![Proxy](Proxy.PNG)
+
+### Strategy
+
+The concept for strategy is for an object to control the behavior of some other object. This allows us to to encapsulate behavior for unrelated algoritms.
+
+<strong>Advantages:</strong>
+Cleaner code as we encapsulate logic to other classes.
+Dynamicically change algoritms
+
+<strong>Disadvantages:</strong>
+Increased complexity as it forces users to be knowledgable about the difference strategy objects.
+
+<strong>Similar patterns</strong>
+Command, State, Template Method
+
+![Strategy](Strategy.PNG)
