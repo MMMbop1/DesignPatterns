@@ -79,3 +79,14 @@ Increased complexity as it forces users to be knowledgable about the difference 
 Command, State, Template Method
 
 ![Strategy](Strategy.PNG)
+
+### Observerf - Not complete!
+
+
+<strong>Advantages:</strong>
+
+<strong>Disadvantages:</strong>
+
+<strong>Similar patterns</strong>
+
+![Observer](Observer.PNG)
